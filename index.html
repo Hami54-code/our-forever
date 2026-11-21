@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fbf6f1">
+<title>Our Forever Begins | Hami & Aourthy</title>
+<meta name="description" content="A little countdown to our forever — 26 December 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#fbf6f1;--paper2:#f5eae4;--ink:#463735;--muted:#8e7772;--rose:#b8797b;--rose2:#d7a5a1;--line:#eadbd4;--white:#fffdfb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}
+a{color:inherit}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}
+nav{height:74px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eadbd477;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.brand{font-family:"Playfair Display",serif;font-size:20px;letter-spacing:0;text-transform:none;color:var(--rose)}
+.navnote{font-size:10px}
+.hero{min-height:calc(100vh - 74px);display:flex;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;padding:78px 0 90px}
+.hero:before,.hero:after{content:"";position:absolute;width:330px;height:330px;border:1px solid #d7a5a144;border-radius:50%;pointer-events:none}
+.hero:before{top:-205px;left:-120px}.hero:after{bottom:-220px;right:-120px}
+.eyebrow{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--rose);margin:0 0 24px}
+h1,h2,.script{font-family:"Playfair Display",serif;font-weight:500}
+h1{font-size:clamp(48px,8vw,90px);line-height:1.08;margin:0;color:#563f3d}
+.names{font-family:"Playfair Display",serif;font-size:clamp(20px,3vw,27px);font-style:italic;color:var(--rose);margin:22px 0 8px}
+.amp{color:#c79a91;padding:0 9px}
+.intro{max-width:510px;margin:20px auto 0;color:var(--muted);font-size:14px;line-height:1.9}
+.flourish{color:var(--rose2);font-size:24px;margin:24px 0}
+.countdown{display:flex;justify-content:center;gap:clamp(9px,3vw,28px);margin:38px auto 0;flex-wrap:wrap}
+.timebox{width:clamp(70px,14vw,112px);padding:18px 8px 15px;border:1px solid var(--line);background:#fffdfb99;border-radius:3px}
+.num{font-family:"Playfair Display",serif;font-size:clamp(31px,5vw,48px);line-height:1;color:var(--rose)}
+.unit{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+.date-pill{display:inline-block;margin-top:32px;padding:11px 20px;border:1px solid var(--rose2);border-radius:30px;color:var(--rose);font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+section{padding:88px 0}.section-kicker{text-align:center;color:var(--rose);font-size:10px;letter-spacing:.25em;text-transform:uppercase}
+h2{text-align:center;font-size:clamp(34px,5vw,48px);margin:12px 0 14px}
+.section-copy{text-align:center;color:var(--muted);font-size:13px;line-height:1.8;max-width:550px;margin:0 auto 35px}
+.gallery{background:var(--paper2)}
+.photos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.photo{position:relative;aspect-ratio:4/5;overflow:hidden;background:linear-gradient(145deg,#ead7d0,#f8eee8);border:7px solid #fffaf7;box-shadow:0 10px 30px #76534b0d}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo .placeholder{height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#a77d79;text-align:center;padding:18px}
+.placeholder .heart{font-size:28px;margin-bottom:13px}.placeholder span{font-family:"Playfair Display",serif;font-style:italic;font-size:19px}.placeholder small{font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-top:10px;color:#a98e88}
+.note{max-width:760px;margin:auto;text-align:center;padding:54px 30px;background:#fffaf7;border:1px solid var(--line);position:relative}
+.note:before{content:"“";position:absolute;top:3px;left:25px;font:70px "Playfair Display",serif;color:#e6c9c1}
+.note p{font:italic 22px/1.7 "Playfair Display",serif;color:#705653;margin:0}
+.note .sign{font:12px "DM Sans",sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--rose);margin-top:25px}
+footer{text-align:center;padding:35px 20px 45px;color:var(--muted);font-size:11px;letter-spacing:.08em}
+footer .heart{color:var(--rose);font-size:17px;display:block;margin-bottom:9px}
+@media(max-width:650px){.wrap{width:min(100% - 28px,1100px)}nav{height:62px}.navnote{font-size:8px}.hero{min-height:calc(100svh - 62px);padding:65px 0}.photos{grid-template-columns:1fr 1fr;gap:10px}.photo:last-child{display:none}section{padding:68px 0}.note{padding:45px 22px}.note p{font-size:19px}}
+@media(prefers-reduced-motion:no-preference){.hero>*{animation:rise .9s both}.hero .names{animation-delay:.12s}.hero .intro{animation-delay:.2s}.hero .countdown{animation-delay:.28s}@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}}
+</style>
+</head>
+<body>
+<nav class="wrap"><div class="brand">H <span style="color:#c79a91">&</span> A</div><div class="navnote">A little page for our forever</div></nav>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">With love, for our next chapter</p>
+    <h1>Our Forever<br><em>Begins</em></h1>
+    <div class="names">Hami Jafar Koushik <span class="amp">&</span> Miftahul Jannat Aourthy</div>
+    <div class="flourish">✧ &nbsp; ♡ &nbsp; ✧</div>
+    <p class="intro">Two hearts, one beautiful promise, and a lifetime of little moments waiting to happen. I can't wait to begin this journey with you.</p>
+    <div class="countdown" aria-label="Countdown to our wedding">
+      <div class="timebox"><div class="num" id="days">--</div><div class="unit">Days</div></div>
+      <div class="timebox"><div class="num" id="hours">--</div><div class="unit">Hours</div></div>
+      <div class="timebox"><div class="num" id="minutes">--</div><div class="unit">Minutes</div></div>
+      <div class="timebox"><div class="num" id="seconds">--</div><div class="unit">Seconds</div></div>
+    </div>
+    <div class="date-pill">26 December 2026</div>
+  </div>
+</section>
+<section class="gallery">
+  <div class="wrap">
+    <div class="section-kicker">Little moments, forever memories</div>
+    <h2>Our Photo Gallery</h2>
+    <p class="section-copy">A few frames from our story. Replace these placeholders with your favourite photos together.</p>
+    <div class="photos">
+      <div class="photo"><div class="placeholder"><div class="heart">♡</div><span>Your favourite photo</span><small>Add photo 1</small></div></div>
+      <div class="photo"><div class="placeholder"><div class="heart">♡</div><span>A beautiful memory</span><small>Add photo 2</small></div></div>
+      <div class="photo"><div class="placeholder"><div class="heart">♡</div><span>Our happiest moment</span><small>Add photo 3</small></div></div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <div class="section-kicker">A little note for you</div>
+    <h2>To my soon-to-be wife</h2>
+    <div class="note">
+      <p>I don't know all the beautiful moments life has planned for us, but I know I want to experience every one of them with you. Until our forever begins, every second brings me closer to you.</p>
+      <div class="sign">With all my love, Hami ♡</div>
+    </div>
+  </div>
+</section>
+</main>
+<footer><span class="heart">♡</span>Made with love · Hami & Aourthy · 26.12.2026</footer>
+<script>
+const weddingDate = new Date("2026-12-26T00:00:00+06:00").getTime();
+const ids = ["days","hours","minutes","seconds"];
+function updateCountdown(){
+  const now = Date.now();
+  let distance = weddingDate - now;
+  if(distance <= 0){
+    document.querySelector(".countdown").innerHTML = '<div class="timebox" style="width:auto;padding:22px 30px"><div class="num">The day is here ♡</div><div class="unit">Our forever begins</div></div>';
+    return;
+  }
+  const values = [
+    Math.floor(distance / 86400000),
+    Math.floor((distance % 86400000) / 3600000),
+    Math.floor((distance % 3600000) / 60000),
+    Math.floor((distance % 60000) / 1000)
+  ];
+  ids.forEach((id,i)=>document.getElementById(id).textContent=String(values[i]).padStart(2,"0"));
+}
+updateCountdown(); setInterval(updateCountdown,1000);
+</script>
+</body>
+</html>

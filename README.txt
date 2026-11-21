@@ -1,0 +1,1 @@
+Place your image files in this folder if you want to keep your photos organized. To display them, edit index.html and replace each placeholder block with an img tag, for example: <img src="photos/photo1.jpg" alt="A favourite memory">. Use your own photos and keep filenames simple (photo1.jpg, photo2.jpg, photo3.jpg).
